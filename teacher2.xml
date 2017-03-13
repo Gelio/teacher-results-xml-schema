@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Teacher2Results xmlns="http://www.mini.pw.edu.pl/ood"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.mini.pw.edu.pl/ood teachers.xsd">
+  <Student id="111111">
+    <Name>Adrian</Name>
+    <Surname>Abacki</Surname>
+    <Results>
+      <Task3 description="Stwórz diagram klas" maxPoints="25">
+        <Points>21</Points>
+      </Task3>
+      <Task4 description="Stwórz diagram stanów" maxPoints="25">
+        <Points>13</Points>
+      </Task4>
+    </Results>
+  </Student>
+  <Student id="222222">
+    <Name>Bartosz</Name>
+    <Surname>Babacki</Surname>
+    <Results>
+      <Task4 description="Stwórz diagram stanów" maxPoints="25">
+        <Points>25  </Points>
+      </Task4>
+    </Results>
+  </Student>
+  <Student id="333333">
+    <Name>Cyprian</Name>
+    <Surname>Cabacki</Surname>
+    <Results>
+      <Task3 description="Stwórz diagram klas" maxPoints="25">
+        <Points>25</Points>
+      </Task3>
+    </Results>
+  </Student>
+  <Student id="555555">
+    <Name>Edward</Name>
+    <Surname>Endecki</Surname>
+    <Results>
+      <Task4 description="Stwórz diagram stanów" maxPoints="25">
+        <Points>2</Points>
+      </Task4>
+    </Results>
+  </Student>
+</Teacher2Results>

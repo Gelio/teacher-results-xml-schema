@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Teacher1Results xmlns="http://www.mini.pw.edu.pl/ood"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.mini.pw.edu.pl/ood teachers.xsd">
+  <Task1 description="Zdeserializuj XMLe" maxPoints="25">
+    <Result>
+      <Student id="111111">
+        <Name>Adrian</Name>
+        <Surname>Abacki</Surname>
+      </Student>
+      <Points>10</Points>
+    </Result>
+    <Result>
+      <Student id="444444">
+        <Name>Dariusz</Name>
+        <Surname>Dadacki</Surname>
+      </Student>
+      <Points>11</Points>
+    </Result>
+    <Result>
+      <Student id="333333">
+        <Name>Cyprian</Name>
+        <Surname>Cabacki</Surname>
+      </Student>
+      <Points>12.5</Points>
+    </Result>
+  </Task1>
+  <Task2 description="Transformuj XMLe" maxPoints="25">
+    <Result>
+      <Student id="111111">
+        <Name>Adrian</Name>
+        <Surname>Abacki</Surname>
+      </Student>
+      <Points>23</Points>
+    </Result>
+    <Result>
+      <Student id="222222">
+        <Name>Bartosz</Name>
+        <Surname>Babacki</Surname>
+      </Student>
+      <Points>21</Points>
+    </Result>
+    <Result>
+      <Student id="444444">
+        <Name>Dariusz</Name>
+        <Surname>Dadacki</Surname>
+      </Student>
+      <Points>17</Points>
+    </Result>
+  </Task2>
+</Teacher1Results>
