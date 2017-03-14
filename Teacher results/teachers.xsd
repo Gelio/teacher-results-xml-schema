@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="teachers"
+    targetNamespace="http://www.mini.pw.edu.pl/ood"
+    elementFormDefault="qualified"
+    xmlns:teach="http://www.mini.pw.edu.pl/ood"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:complexType name="BaseStudent">
+    <xs:sequence>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="Surname" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:unsignedLong" />
+  </xs:complexType>
+
+  <xs:complexType name="BaseTask">
+    <xs:attribute name="description" type="xs:string" />
+    <xs:attribute name="maxPoints" type="xs:decimal" />
+  </xs:complexType>
+
+  
+  
+  <xs:complexType name="Teacher1Result">
+    <xs:sequence>
+      <xs:element name="Student" type="teach:BaseStudent" />
+      <xs:element name="Points" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Teacher1Task">
+    <xs:complexContent>
+      <xs:extension base="teach:BaseTask">
+        <xs:sequence>
+          <xs:element name="Result" type="teach:Teacher1Result" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+
+  <xs:complexType name="Teacher2Task">
+    <xs:complexContent>
+      <xs:extension base="teach:BaseTask">
+        <xs:sequence>
+          <xs:element name="Points" type="xs:decimal" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="Teacher2Results">
+    <xs:sequence>
+      <xs:element name="Task3" minOccurs="0" maxOccurs="1" type="teach:Teacher2Task" />
+      <xs:element name="Task4" minOccurs="0" maxOccurs="1" type="teach:Teacher2Task" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Teacher2Student">
+    <xs:complexContent>
+      <xs:extension base="teach:BaseStudent">
+        <xs:sequence>
+          <xs:element name="Results" type="teach:Teacher2Results" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  
+
+  
+  <xs:element name="Teacher1Results">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Task1" type="teach:Teacher1Task" />
+        <xs:element name="Task2" type="teach:Teacher1Task" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Teacher2Results">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Student" type="teach:Teacher2Student" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

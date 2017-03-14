@@ -22,7 +22,7 @@
         <Name>Cyprian</Name>
         <Surname>Cabacki</Surname>
       </Student>
-      <!--<Points>12.5</Points>-->
+      <Points>12.5</Points>
     </Result>
   </Task1>
   <Task2 description="Transformuj XMLe" maxPoints="25">

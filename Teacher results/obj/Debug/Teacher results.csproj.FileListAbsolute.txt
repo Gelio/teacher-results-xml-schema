@@ -1,0 +1,11 @@
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\bin\Debug\Teacher results.exe.config
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\bin\Debug\Teacher results.exe
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\bin\Debug\Teacher results.pdb
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\obj\Debug\Teacher results.csprojResolveAssemblyReference.cache
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\obj\Debug\Teacher results.exe
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\obj\Debug\Teacher results.pdb
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\bin\Debug\teacher1.xml
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\bin\Debug\teacher2.xml
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\bin\Debug\teachers.xsd
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\bin\Debug\ConsoleApplication.dll
+C:\Programowanie\studia\projektowanie-obiektowe\teacher-results-xml-schema\Teacher results\bin\Debug\ConsoleApplication.pdb
